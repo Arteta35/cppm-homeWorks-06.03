@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cppm-homeWorks-06.03.cpp">
+    <ClCompile Include="cppm-homeWorks-08.02.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Figure.cpp">
@@ -48,6 +48,9 @@
     <ClCompile Include="Rhomb.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="IncorrectFigure.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figure.h">
@@ -78,6 +81,9 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Rhomb.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="IncorrectFigure.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

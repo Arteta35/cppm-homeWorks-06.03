@@ -1,5 +1,6 @@
 #pragma once
 #include "Figure.h"
+#include "IncorrectFigure.h"
 
 class Quadrilateral : public Figure
 {
