@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cppm-homeWorks-06.03.cpp" />
+    <ClCompile Include="cppm-homeWorks-08.02.cpp" />
     <ClCompile Include="Equilateral_triangle.cpp" />
     <ClCompile Include="Figure.cpp" />
     <ClCompile Include="Isosceles_triangle.cpp" />
@@ -135,6 +135,7 @@
     <ClCompile Include="Quadrilateral.cpp" />
     <ClCompile Include="Rhomb.cpp" />
     <ClCompile Include="Right_triangle.cpp" />
+    <ClCompile Include="IncorrectFigure.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="_Rectangle.cpp" />
@@ -142,6 +143,7 @@
   <ItemGroup>
     <ClInclude Include="Equilateral_triangle.h" />
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="IncorrectFigure.h" />
     <ClInclude Include="Isosceles_triangle.h" />
     <ClInclude Include="Parallelogram.h" />
     <ClInclude Include="Quadrilateral.h" />
