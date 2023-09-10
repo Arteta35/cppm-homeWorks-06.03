@@ -31,14 +31,14 @@ int main()
 		print_info(&tri);	
 
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 	try
 	{
 		Right_triangle right_tri(10, 20, 30, 50, 40, 90);
 		print_info(&right_tri);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 
 	try
@@ -46,14 +46,14 @@ int main()
 		Isosceles_triangle isosceles_tri(10, 20, 10, 60, 60, 60);
 		print_info(&isosceles_tri);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 	try
 	{
 		Equilateral_triangle equilateral_tri(10, 20, 10, 60, 60, 60);
 		print_info(&equilateral_tri);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 
 	try
@@ -61,7 +61,7 @@ int main()
 		Quadrilateral quad(10, 20, 30, 40, 90, 90, 90, 90);
 		print_info(&quad);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 
 	try
@@ -69,14 +69,14 @@ int main()
 		_Rectangle req(10, 20, 10, 20, 90, 90, 90, 90);
 		print_info(&req);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 	try
 	{
 		Square square(20, 20, 20, 20, 90, 90, 90, 90);
 		print_info(&square);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 
 	try
@@ -84,7 +84,7 @@ int main()
 		Parallelogram parallelogram(20, 20, 20, 20, 100, 80, 100, 80);
 		print_info(&parallelogram);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 
 	try
@@ -92,7 +92,7 @@ int main()
 		Rhomb rhomb(20, 20, 20, 20, 100, 80, 100, 80);
 		print_info(&rhomb);
 	}
-	catch (IncorrectFigure& er) { std::cout << er.Error_num() << std::endl; }
+	catch (IncorrectFigure& er) { std::cout << er.what() << std::endl; }
 
 
 	return 0;
